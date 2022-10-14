@@ -3,13 +3,13 @@ const express = require('express');
 const App = express();
 
 App.get('/', (req, res)=>{
-    res.send('hello Node!');
+    res.send('Hi everyone');
 })
 App.get('/api/main', (req, res)=>{
-    res.send('Howdy!');
+    res.send('hello!');
 })
 
 
 App.listen(9000,()=>{
-    console.log('Welcome to my server!');
+    console.log('what is express!');
 })
